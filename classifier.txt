@@ -1,0 +1,14 @@
+Which representation of document to use ?
+Choose among the following :
+labeledBbow.feat	labeledBow.feat			labeledNormTf.feat
+labeledTfIdf.feat	labeledAvgWord2Vec.feat		labeledAvgTfIdfWord2Vec.feat
+labeledAvgGlove.feat	labeledAvgTfIdfGlove.feat	labeledParaVec.feat
+Write here : labeledBbow.feat
+Which classifier to use ?
+Choose among the following :
+MultinomialNB		LogisticRegression		SVM
+FeedforwardNN
+Write here : LogisticRegression
+Training started with LogisticRegression...
+Training completed...
+Accuracy ( labeledBbow.feat , LogisticRegression) :  0.86968
